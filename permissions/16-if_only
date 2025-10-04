@@ -1,5 +1,0 @@
-#!/bin/bash
-if [  "$( stat --format= %U hello )" = "guillaume" ]
- then
- chown vincent hello
-fi
